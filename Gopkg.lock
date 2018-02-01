@@ -3,7 +3,7 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/Frankz/loraserver"
+  name = "github.com/º/loraserver"
   packages = [
     "api/as",
     "api/ns"
