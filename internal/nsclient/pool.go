@@ -14,7 +14,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/brocaar/loraserver/api/ns"
+	"github.com/Frankz/loraserver/api/ns"
 )
 
 // Pool defines the network-server client pool.

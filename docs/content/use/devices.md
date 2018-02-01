@@ -131,6 +131,6 @@ AT+DI?
 
 #### Your device not here?
 
-Please help making this guide complete! Fork the [github.com/brocaar/lora-app-server](https://github.com/brocaar/lora-app-server)
+Please help making this guide complete! Fork the [github.com/Frankz/lora-app-server](https://github.com/Frankz/lora-app-server)
 repository, update this page with the actions needed to setup your device
 and create a pull-request :-)

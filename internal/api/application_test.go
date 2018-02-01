@@ -9,11 +9,11 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 	"golang.org/x/net/context"
 
-	pb "github.com/brocaar/lora-app-server/api"
-	"github.com/brocaar/lora-app-server/internal/common"
-	"github.com/brocaar/lora-app-server/internal/storage"
-	"github.com/brocaar/lora-app-server/internal/test"
-	"github.com/brocaar/lorawan/backend"
+	pb "github.com/Frankz/lora-app-server/api"
+	"github.com/Frankz/lora-app-server/internal/common"
+	"github.com/Frankz/lora-app-server/internal/storage"
+	"github.com/Frankz/lora-app-server/internal/test"
+	"github.com/Frankz/lorawan/backend"
 )
 
 func TestApplicationAPI(t *testing.T) {

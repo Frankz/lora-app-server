@@ -6,10 +6,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/brocaar/lora-app-server/internal/common"
-	"github.com/brocaar/lora-app-server/internal/handler"
-	"github.com/brocaar/lora-app-server/internal/handler/httphandler"
-	"github.com/brocaar/lora-app-server/internal/storage"
+	"github.com/Frankz/lora-app-server/internal/common"
+	"github.com/Frankz/lora-app-server/internal/handler"
+	"github.com/Frankz/lora-app-server/internal/handler/httphandler"
+	"github.com/Frankz/lora-app-server/internal/storage"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

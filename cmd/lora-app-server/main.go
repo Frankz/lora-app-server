@@ -31,21 +31,21 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/grpclog"
 
-	pb "github.com/brocaar/lora-app-server/api"
-	"github.com/brocaar/lora-app-server/internal/api"
-	"github.com/brocaar/lora-app-server/internal/api/auth"
-	"github.com/brocaar/lora-app-server/internal/common"
-	"github.com/brocaar/lora-app-server/internal/downlink"
-	"github.com/brocaar/lora-app-server/internal/gwping"
-	"github.com/brocaar/lora-app-server/internal/handler/mqtthandler"
-	"github.com/brocaar/lora-app-server/internal/handler/multihandler"
-	"github.com/brocaar/lora-app-server/internal/migrations"
-	"github.com/brocaar/lora-app-server/internal/nsclient"
-	"github.com/brocaar/lora-app-server/internal/profilesmigrate"
-	"github.com/brocaar/lora-app-server/internal/queuemigrate"
-	"github.com/brocaar/lora-app-server/internal/static"
-	"github.com/brocaar/lora-app-server/internal/storage"
-	"github.com/brocaar/loraserver/api/as"
+	pb "github.com/Frankz/lora-app-server/api"
+	"github.com/Frankz/lora-app-server/internal/api"
+	"github.com/Frankz/lora-app-server/internal/api/auth"
+	"github.com/Frankz/lora-app-server/internal/common"
+	"github.com/Frankz/lora-app-server/internal/downlink"
+	"github.com/Frankz/lora-app-server/internal/gwping"
+	"github.com/Frankz/lora-app-server/internal/handler/mqtthandler"
+	"github.com/Frankz/lora-app-server/internal/handler/multihandler"
+	"github.com/Frankz/lora-app-server/internal/migrations"
+	"github.com/Frankz/lora-app-server/internal/nsclient"
+	"github.com/Frankz/lora-app-server/internal/profilesmigrate"
+	"github.com/Frankz/lora-app-server/internal/queuemigrate"
+	"github.com/Frankz/lora-app-server/internal/static"
+	"github.com/Frankz/lora-app-server/internal/storage"
+	"github.com/Frankz/loraserver/api/as"
 )
 
 // grpcLogger implements a wrapper around the logrus Logger to make it
@@ -559,7 +559,7 @@ func main() {
 	app.Name = "lora-app-server"
 	app.Usage = "application-server for LoRaWAN networks"
 	app.Version = version
-	app.Copyright = "See http://github.com/brocaar/lora-app-server for copyright information"
+	app.Copyright = "See http://github.com/Frankz/lora-app-server for copyright information"
 	app.Action = run
 	app.Flags = []cli.Flag{
 		cli.StringFlag{

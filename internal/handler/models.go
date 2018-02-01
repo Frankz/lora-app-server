@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/brocaar/lora-app-server/internal/codec"
-	"github.com/brocaar/lorawan"
+	"github.com/Frankz/lora-app-server/internal/codec"
+	"github.com/Frankz/lorawan"
 )
 
 // DataRate contains the data-rate related fields.

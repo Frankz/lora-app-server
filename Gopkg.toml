@@ -4,11 +4,11 @@
 
 [[constraint]]
   branch = "master"
-  name = "github.com/brocaar/loraserver"
+  name = "github.com/Frankz/loraserver"
 
 [[constraint]]
   branch = "master"
-  name = "github.com/brocaar/lorawan"
+  name = "github.com/Frankz/lorawan"
 
 [[constraint]]
   name = "github.com/dgrijalva/jwt-go"

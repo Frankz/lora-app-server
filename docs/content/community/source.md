@@ -8,7 +8,7 @@ menu:
 
 ## LoRa App Server source
 
-Source-code can be found at [https://github.com/brocaar/lora-app-server](https://github.com/brocaar/lora-app-server).
+Source-code can be found at [https://github.com/Frankz/lora-app-server](https://github.com/Frankz/lora-app-server).
 
 ### Building
 
@@ -33,7 +33,7 @@ pre-compiled packages available):
 
 Make sure you have [Go](https://golang.org/) installed (1.8+) and that the LoRa
 App Server repository has been cloned to 
-`$GOPATH/src/github.com/brocaar/lora-app-server`.
+`$GOPATH/src/github.com/Frankz/lora-app-server`.
 
 ##### Node.js
 

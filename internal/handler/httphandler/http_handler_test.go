@@ -11,8 +11,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/brocaar/lora-app-server/internal/handler"
-	"github.com/brocaar/lorawan"
+	"github.com/Frankz/lora-app-server/internal/handler"
+	"github.com/Frankz/lorawan"
 )
 
 type testHTTPHandler struct {

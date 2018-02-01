@@ -6,8 +6,8 @@ import (
 	"github.com/pkg/errors"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/brocaar/lora-app-server/internal/common"
-	"github.com/brocaar/lora-app-server/internal/test"
+	"github.com/Frankz/lora-app-server/internal/common"
+	"github.com/Frankz/lora-app-server/internal/test"
 )
 
 func TestApplication(t *testing.T) {

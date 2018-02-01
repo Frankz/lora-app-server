@@ -5,14 +5,14 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/brocaar/lora-app-server/internal/handler"
+	"github.com/Frankz/lora-app-server/internal/handler"
 
 	"github.com/pkg/errors"
 
-	"github.com/brocaar/lora-app-server/internal/common"
-	"github.com/brocaar/lora-app-server/internal/storage"
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/backend"
+	"github.com/Frankz/lora-app-server/internal/common"
+	"github.com/Frankz/lora-app-server/internal/storage"
+	"github.com/Frankz/lorawan"
+	"github.com/Frankz/lorawan/backend"
 )
 
 type context struct {

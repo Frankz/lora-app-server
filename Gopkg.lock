@@ -3,7 +3,7 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/brocaar/loraserver"
+  name = "github.com/Frankz/loraserver"
   packages = [
     "api/as",
     "api/ns"
@@ -12,7 +12,7 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/brocaar/lorawan"
+  name = "github.com/Frankz/lorawan"
   packages = [
     ".",
     "backend"

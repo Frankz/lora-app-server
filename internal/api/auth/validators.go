@@ -3,7 +3,7 @@ package auth
 import (
 	"strings"
 
-	"github.com/brocaar/lorawan"
+	"github.com/Frankz/lorawan"
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
 )

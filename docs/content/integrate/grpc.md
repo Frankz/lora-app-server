@@ -34,8 +34,8 @@ languages (officially suported by gRPC):
 ### Links
 
 * [gRPC documentation](http://www.grpc.io/)
-* [LoRa App Server .proto files](https://github.com/brocaar/lora-app-server/tree/master/api)
-* [LoRa App Server Go client](https://godoc.org/github.com/brocaar/lora-app-server/api)
+* [LoRa App Server .proto files](https://github.com/Frankz/lora-app-server/tree/master/api)
+* [LoRa App Server Go client](https://godoc.org/github.com/Frankz/lora-app-server/api)
 
 ### Code examples
 
@@ -48,7 +48,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/brocaar/lora-app-server/api"
+	"github.com/Frankz/lora-app-server/api"
 	"google.golang.org/grpc"
 )
 

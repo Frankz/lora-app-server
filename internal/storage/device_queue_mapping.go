@@ -6,7 +6,7 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/lorawan"
+	"github.com/Frankz/lorawan"
 	"github.com/jmoiron/sqlx"
 )
 

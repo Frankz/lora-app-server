@@ -9,10 +9,10 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/brocaar/lora-app-server/internal/common"
-	"github.com/brocaar/lora-app-server/internal/migrations"
-	"github.com/brocaar/lora-app-server/internal/nsclient"
-	"github.com/brocaar/loraserver/api/ns"
+	"github.com/Frankz/lora-app-server/internal/common"
+	"github.com/Frankz/lora-app-server/internal/migrations"
+	"github.com/Frankz/lora-app-server/internal/nsclient"
+	"github.com/Frankz/loraserver/api/ns"
 )
 
 // Config contains the test configuration.

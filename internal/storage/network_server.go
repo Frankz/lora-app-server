@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/brocaar/lorawan"
+	"github.com/Frankz/lorawan"
 
-	"github.com/brocaar/lora-app-server/internal/common"
-	"github.com/brocaar/loraserver/api/ns"
+	"github.com/Frankz/lora-app-server/internal/common"
+	"github.com/Frankz/loraserver/api/ns"
 
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"

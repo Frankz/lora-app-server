@@ -6,19 +6,19 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/brocaar/lora-app-server/internal/codec"
-	"github.com/brocaar/lora-app-server/internal/gwping"
+	"github.com/Frankz/lora-app-server/internal/codec"
+	"github.com/Frankz/lora-app-server/internal/gwping"
 
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	"github.com/brocaar/lora-app-server/internal/common"
-	"github.com/brocaar/lora-app-server/internal/handler"
-	"github.com/brocaar/lora-app-server/internal/storage"
-	"github.com/brocaar/loraserver/api/as"
-	"github.com/brocaar/lorawan"
+	"github.com/Frankz/lora-app-server/internal/common"
+	"github.com/Frankz/lora-app-server/internal/handler"
+	"github.com/Frankz/lora-app-server/internal/storage"
+	"github.com/Frankz/loraserver/api/as"
+	"github.com/Frankz/lorawan"
 )
 
 // ApplicationServerAPI implements the as.ApplicationServerServer interface.

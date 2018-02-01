@@ -8,11 +8,11 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	pb "github.com/brocaar/lora-app-server/api"
-	"github.com/brocaar/lora-app-server/internal/api/auth"
-	"github.com/brocaar/lora-app-server/internal/common"
-	"github.com/brocaar/lora-app-server/internal/storage"
-	"github.com/brocaar/lorawan/backend"
+	pb "github.com/Frankz/lora-app-server/api"
+	"github.com/Frankz/lora-app-server/internal/api/auth"
+	"github.com/Frankz/lora-app-server/internal/common"
+	"github.com/Frankz/lora-app-server/internal/storage"
+	"github.com/Frankz/lorawan/backend"
 )
 
 // ServiceProfileServiceAPI export the ServiceProfile related functions.

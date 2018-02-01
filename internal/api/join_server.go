@@ -8,8 +8,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/lora-app-server/internal/join"
-	"github.com/brocaar/lorawan/backend"
+	"github.com/Frankz/lora-app-server/internal/join"
+	"github.com/Frankz/lorawan/backend"
 )
 
 // JoinServerAPI implements the join-server API as documented in the LoRaWAN

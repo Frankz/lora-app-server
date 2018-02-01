@@ -7,14 +7,14 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	"github.com/brocaar/loraserver/api/ns"
+	"github.com/Frankz/loraserver/api/ns"
 
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/lora-app-server/internal/common"
-	"github.com/brocaar/lorawan"
+	"github.com/Frankz/lora-app-server/internal/common"
+	"github.com/Frankz/lorawan"
 )
 
 // Device defines a LoRaWAN device.

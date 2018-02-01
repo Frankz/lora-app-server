@@ -85,7 +85,7 @@ For more information about the Redis URL format, see:
 ### Database migrations
 
 It is possible to apply the database-migrations by hand
-(see [migrations](https://github.com/brocaar/lora-app-server/tree/master/migrations))
+(see [migrations](https://github.com/Frankz/lora-app-server/tree/master/migrations))
 or let LoRa App Server migrate to the latest state automatically, by using
 the `--db-automigrate` flag. Make sure that you always make a backup when
 upgrading Lora App Server and / or applying migrations.
@@ -101,7 +101,7 @@ you must provide the CA and TLS client certificate in order to let the
 network-server to connect to LoRa App Server. See also
 [network-server management]({{< ref "use/network-servers.md" >}}).
 
-See [https://github.com/brocaar/loraserver-certificates](https://github.com/brocaar/loraserver-certificates)
+See [https://github.com/Frankz/loraserver-certificates](https://github.com/Frankz/loraserver-certificates)
 for a set of script to generate such certificates.
 
 ### Securing the join-server API

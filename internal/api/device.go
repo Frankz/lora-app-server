@@ -11,12 +11,12 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	pb "github.com/brocaar/lora-app-server/api"
-	"github.com/brocaar/lora-app-server/internal/api/auth"
-	"github.com/brocaar/lora-app-server/internal/common"
-	"github.com/brocaar/lora-app-server/internal/storage"
-	"github.com/brocaar/loraserver/api/ns"
-	"github.com/brocaar/lorawan"
+	pb "github.com/Frankz/lora-app-server/api"
+	"github.com/Frankz/lora-app-server/internal/api/auth"
+	"github.com/Frankz/lora-app-server/internal/common"
+	"github.com/Frankz/lora-app-server/internal/storage"
+	"github.com/Frankz/loraserver/api/ns"
+	"github.com/Frankz/lorawan"
 )
 
 // DeviceAPI exports the Node related functions.
@@ -341,7 +341,7 @@ func (a *DeviceAPI) Activate(ctx context.Context, req *pb.ActivateDeviceRequest)
 	}
 
 	// try to remove an existing node-session.
-	// TODO: refactor once https://github.com/brocaar/loraserver/pull/124 is in place?
+	// TODO: refactor once https://github.com/Frankz/loraserver/pull/124 is in place?
 	// so that we can call something like SaveNodeSession which will either
 	// create or update an existing node-session
 	n, err := storage.GetNetworkServerForDevEUI(common.DB, devEUI)

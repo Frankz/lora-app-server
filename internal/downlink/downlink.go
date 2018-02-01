@@ -9,12 +9,12 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 
-	"github.com/brocaar/lora-app-server/internal/codec"
-	"github.com/brocaar/lora-app-server/internal/common"
-	"github.com/brocaar/lora-app-server/internal/handler"
-	"github.com/brocaar/lora-app-server/internal/storage"
-	"github.com/brocaar/loraserver/api/ns"
-	"github.com/brocaar/lorawan"
+	"github.com/Frankz/lora-app-server/internal/codec"
+	"github.com/Frankz/lora-app-server/internal/common"
+	"github.com/Frankz/lora-app-server/internal/handler"
+	"github.com/Frankz/lora-app-server/internal/storage"
+	"github.com/Frankz/loraserver/api/ns"
+	"github.com/Frankz/lorawan"
 )
 
 // HandleDataDownPayloads handles received downlink payloads to be emitted to the

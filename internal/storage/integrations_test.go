@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/brocaar/lora-app-server/internal/common"
-	"github.com/brocaar/lora-app-server/internal/test"
-	"github.com/brocaar/lorawan/backend"
+	"github.com/Frankz/lora-app-server/internal/common"
+	"github.com/Frankz/lora-app-server/internal/test"
+	"github.com/Frankz/lorawan/backend"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

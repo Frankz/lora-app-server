@@ -6,11 +6,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/brocaar/lora-app-server/internal/common"
-	"github.com/brocaar/lora-app-server/internal/handler"
-	"github.com/brocaar/lora-app-server/internal/storage"
-	"github.com/brocaar/lora-app-server/internal/test"
-	"github.com/brocaar/lorawan"
+	"github.com/Frankz/lora-app-server/internal/common"
+	"github.com/Frankz/lora-app-server/internal/handler"
+	"github.com/Frankz/lora-app-server/internal/storage"
+	"github.com/Frankz/lora-app-server/internal/test"
+	"github.com/Frankz/lorawan"
 	mqtt "github.com/eclipse/paho.mqtt.golang"
 	. "github.com/smartystreets/goconvey/convey"
 )

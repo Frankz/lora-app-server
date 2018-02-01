@@ -12,9 +12,9 @@ import (
 	"github.com/satori/go.uuid"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/lora-app-server/internal/common"
-	"github.com/brocaar/loraserver/api/ns"
-	"github.com/brocaar/lorawan/backend"
+	"github.com/Frankz/lora-app-server/internal/common"
+	"github.com/Frankz/loraserver/api/ns"
+	"github.com/Frankz/lorawan/backend"
 )
 
 // ServiceProfile defines the service-profile.

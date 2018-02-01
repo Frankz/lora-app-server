@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/brocaar/lora-app-server/internal/handler/httphandler"
-	"github.com/brocaar/lora-app-server/internal/storage"
+	"github.com/Frankz/lora-app-server/internal/handler/httphandler"
+	"github.com/Frankz/lora-app-server/internal/storage"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

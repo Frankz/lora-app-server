@@ -12,11 +12,11 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/lora-app-server/internal/common"
-	"github.com/brocaar/lora-app-server/internal/storage"
-	"github.com/brocaar/loraserver/api/as"
-	"github.com/brocaar/loraserver/api/ns"
-	"github.com/brocaar/lorawan"
+	"github.com/Frankz/lora-app-server/internal/common"
+	"github.com/Frankz/lora-app-server/internal/storage"
+	"github.com/Frankz/loraserver/api/as"
+	"github.com/Frankz/loraserver/api/ns"
+	"github.com/Frankz/lorawan"
 )
 
 const (

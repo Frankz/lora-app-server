@@ -3,8 +3,8 @@ package common
 import (
 	"time"
 
-	"github.com/brocaar/lora-app-server/internal/handler"
-	"github.com/brocaar/lora-app-server/internal/nsclient"
+	"github.com/Frankz/lora-app-server/internal/handler"
+	"github.com/Frankz/lora-app-server/internal/nsclient"
 	"github.com/garyburd/redigo/redis"
 )
 

@@ -49,7 +49,7 @@ menu:
 
 **Bugfixes:**
 
-* `--gw-ping-dr 0` is now handled correctly ([#204](https://github.com/brocaar/lora-app-server/pull/204))
+* `--gw-ping-dr 0` is now handled correctly ([#204](https://github.com/Frankz/lora-app-server/pull/204))
 
 
 ### 0.16.1
@@ -72,7 +72,7 @@ See for more information:
 * [LoRa Server configuration](https://docs.loraserver.io/loraserver/install/config/)
 * [LoRa App Server configuration](https://docs.loraserver.io/lora-app-server/install/config/)
 * [LoRa App Server network-server management](https://docs.loraserver.io/lora-app-server/use/network-servers/)
-* [https://github.com/brocaar/loraserver-certificates](https://github.com/brocaar/loraserver-certificates)
+* [https://github.com/Frankz/loraserver-certificates](https://github.com/Frankz/loraserver-certificates)
 
 **Improvements:**
 
@@ -311,7 +311,7 @@ version 0.20.0+.
 **Bugfixes:**
 
 * Fix ABP sesstings not editable by organization admin
-  ([#85](https://github.com/brocaar/lora-app-server/issues/85))
+  ([#85](https://github.com/Frankz/lora-app-server/issues/85))
 
 ### 0.9.0
 
@@ -324,7 +324,7 @@ version 0.20.0+.
 
 * On editing a gateway, disable the MAC input field (as this is the unique
   identifier of the gateway).
-* A pagination regression has been fixed ([#82](https://github.com/brocaar/lora-app-server/issues/82)).
+* A pagination regression has been fixed ([#82](https://github.com/Frankz/lora-app-server/issues/82)).
 
 **Note:** when upgrading to this version with `--db-automigrate` /
 `DB_AUTOMIGRATE` set, channel-list data will be removed.

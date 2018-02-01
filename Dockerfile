@@ -1,6 +1,6 @@
 FROM golang:1.9-alpine3.6 AS development
 
-ENV PROJECT_PATH=/go/src/github.com/brocaar/lora-app-server
+ENV PROJECT_PATH=/go/src/github.com/Frankz/lora-app-server
 ENV PATH=$PATH:$PROJECT_PATH/build
 ENV CGO_ENABLED=0
 ENV GO_EXTRA_BUILD_ARGS="-a -installsuffix cgo"
@@ -21,7 +21,7 @@ FROM alpine:latest AS production
 
 WORKDIR /root/
 RUN apk --no-cache add ca-certificates
-COPY --from=development /go/src/github.com/brocaar/lora-app-server/build/lora-app-server .
+COPY --from=development /go/src/github.com/Frankz/lora-app-server/build/lora-app-server .
 COPY --from=development /etc/lora-app-server/certs/http-key.pem /etc/lora-app-server/certs/http-key.pem
 COPY --from=development /etc/lora-app-server/certs/http.pem /etc/lora-app-server/certs/http.pem
 ENTRYPOINT ["./lora-app-server"]

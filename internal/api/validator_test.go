@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/brocaar/lora-app-server/internal/api/auth"
+	"github.com/Frankz/lora-app-server/internal/api/auth"
 	"golang.org/x/net/context"
 )
 
